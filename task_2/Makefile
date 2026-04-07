@@ -17,4 +17,4 @@ help:
 	@echo "  clean - Remove generated files"
 	@echo "  help  - Show this help"
 
-.PHONY: test view clean help
+.PHONY: test clean help
