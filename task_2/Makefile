@@ -1,7 +1,7 @@
-MODULE = task_2.v
-TESTBENCH = task_2_tb.v
-TARGET = task_2
-VCD_FILE = task_2.vcd
+MODULE = buffer.v
+TESTBENCH = buffer_tb.v
+TARGET = buffer
+VCD_FILE = buffer.vcd
 
 $(TARGET): $(MODULE) $(TESTBENCH)
 	iverilog -o $@ $^

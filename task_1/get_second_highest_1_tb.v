@@ -24,6 +24,15 @@ module tb;
         #10;
         $display("vec=%b, position_o=%0d (expect 2)", vec, pos);
 
+        vec = 8'b0100_0000;
+        #10;
+        $display("vec=%b, position_o=%0d (expect 0)", vec, pos);
+
+        vec = 8'b0000_0000;
+        #10;
+        $display("vec=%b, position_o=%0d (expect 0)", vec, pos);
+
+
         $finish;
     end
 

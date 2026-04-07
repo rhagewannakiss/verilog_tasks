@@ -1,7 +1,7 @@
-MODULE = task_1.v
-TESTBENCH = task_1_tb.v
-TARGET = task_1
-VCD_FILE = task_1.vcd
+MODULE = get_second_highest_1.v
+TESTBENCH = get_second_highest_1_tb.v
+TARGET = get_second_highest_1
+VCD_FILE = get_second_highest_1.vcd
 
 $(TARGET): $(MODULE) $(TESTBENCH)
 	iverilog -o $@ $^

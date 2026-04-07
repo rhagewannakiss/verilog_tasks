@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module task_2_tb;
+module buffer_tb;
 
     parameter ADDRSIZE = 3;  // глубина 8
     parameter DATA_W   = 16;
